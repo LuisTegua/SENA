@@ -1,0 +1,17 @@
+@media screen and (max-width:700px){
+  header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    // padding-bottom: 20px;
+  }
+  main{
+    // position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  footer{
+    left: 0;
+    width: 100%;
+  }
+}

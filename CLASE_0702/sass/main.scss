@@ -1,0 +1,27 @@
+@import 'utils/variable';
+@import 'utils/mixin';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main{
+    width: 80%;
+    min-height: 100vh;
+    margin-left: 20%;
+    padding: 20px;
+
+    background-color: getcolor("one");
+}
+@import 'components/header';
+@import 'components/footer';
+@import 'components/media';

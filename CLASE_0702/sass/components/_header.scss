@@ -1,0 +1,31 @@
+
+header{
+  position: fixed;
+  background-color: getcolor("five");
+  height: 100vh;
+  width: 20%;
+}
+.title{
+  text-align: center;
+  padding: 20px;
+  color: getcolor("one");
+}
+.nav{
+  &__item{
+    border-bottom: 1PX solid getcolor("one");
+    padding: 10px;
+    text-align: center;
+  }
+  &__item:hover,
+  &__item:focus{
+    background-color: #222222;
+    transform: translateY(-2px);
+  }
+
+  &__link{
+    color: getcolor("one");
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+}

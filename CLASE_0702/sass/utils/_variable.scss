@@ -1,0 +1,10 @@
+$color:(
+    "one":#F2F2F2,
+    "two":#93BBBF,
+    "three":#374342,
+    "four":#899B9F,
+    "five":#0D0D0D
+);
+@function getcolor($key){
+    @return map-get($color, $key);
+}

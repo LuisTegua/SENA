@@ -1,0 +1,11 @@
+@mixin display(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin style-letter($size, $style, $lineh, $weight){
+    font-size: $size;
+    font-style: $style;
+    line-height: $lineh;
+    font-weight: $weight;
+}
